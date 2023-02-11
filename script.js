@@ -31,7 +31,7 @@ fetch("https://dummyjson.com/products").then((response)=> response.json()).then(
       <p class="card-text text-capitalize fst-italic"> <b>Description:</b> ${descriptionn}</p>
       <p class="card-text text-capitalize"> <b>Price:</b> ${pricee}$</p>
       <p class="card-text text-capitalize"> <b>Special Discount for you:</b> ${discountPercentagee}%</p>
-      <p class="card-text text-capitalize"> <b>Ratings:</b> ${ratingg}</p>
+      <h5> <span class="badge text-bg-success"><b>Ratings:</b> ${ratingg}</span></h5>
       <p class="card-text text-capitalize fw-semibold text-primary"><i>Only ${stockk} items remain in stock. Hurry up before stock gets exausted!!!<i></p>
       <a class="btn btn-dark">Buy Now</a>
     </div>
